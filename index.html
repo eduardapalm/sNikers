@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./Assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Raleway:ital,wght@0,200;0,400;0,500;1,500&display=swap"
+    rel="stylesheet">
+  <title>sNikers</title>
+</head>
+
+<body>
+  <section class="top-wrapper">
+    <header>
+      <nav class="top-menu navbar navbar-expand-lg navbar-dark">
+        <div class="menu-wrapper container-fluid">
+          <a class="store-brand navbar-brand" href="#">
+            <img src="./Assets/icon.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <h1>sNikers</h1>
+          </a>
+          <button class="navbar-toggler edit-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="content collapse navbar-collapse" id="navbarNav">
+            <a href="#"><i class="fas fas-top fa-user"></i></a>
+            <a href="#"><i class="fas fas-top fa-shopping-cart"></i></a>
+            <form class="d-flex">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            <ul class="navbar-ul navbar-nav">
+              <li class="items nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="items nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="items nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="items nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+
+    <section id="carousel">
+      <div class="square-carousel"></div>
+      <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-bar carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inside carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./Assets/shoe.svg" class="d-block w-100 first-animation animate" alt="red shoe">
+            <div class="text-holder">
+              <h1 class="red-h1">NIKE FREE SNEAKERS</h1>
+              <h2>Walk on Air</h2>
+              <p>The Nike Free Skeakers combines lightweight cushioning underfoot and breathable mesh up top to get you
+                moving comfortably in circuit-based fitness classes.</p>
+              <button type="button" class="btn btn-dark">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Assets/shoe_2.svg" class="d-block w-100 second-animation animate" alt="...">
+            <div class="text-holder">
+              <h1 class="black-h1">NIKE BASKETBALL SHOE</h1>
+              <h2>Kick It into the Future</h2>
+              <p>Players who feel fresh play stronger down the stretch. The Nike Black and White Basketball Shoe is
+                built
+                to perform, providing responsive cushioning and plush comfort that extends through the entire shoe.</p>
+              <button type="button" class="btn btn-dark">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/shoe_3.svg" class="d-block w-100 third-animation animate" alt="...">
+            <div class="text-holder">
+              <h1 class="blue-h1">AIR JORDAN 1 MID SHOE</h1>
+              <h2>Keep a Steady Grip</h2>
+              <p>The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to
+                follow
+                in the footsteps of greatness. Fresh color trims <the></the> classic materials, injecting some newness
+                into
+                the familiar design.</p>
+              <button type="button" class="btn btn-dark">LEARN MORE</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-controllers previous" type="button" data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-controllers next" type="button" data-bs-target="#carouselExampleDark"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </section>
+  </section>
+  <section class="accessories d-flex flex-column justify-content-center align-items-center">
+    <h1>Accessories</h1>
+    <p>Find here the features to make your look even more powerful.</p>
+
+    <div class="image-wrapper d-flex justify-content-center align-items-center">
+      <div class="features m-4 p-0">
+        <img class="hat" src="./Assets/hat.svg" alt="hat image">
+        <h3>Hats</h3>
+      </div>
+      <div class="features m-0 p-0">
+        <img src="./Assets/backpack.svg" alt="backpack image">
+        <h3>Backpacks</h3>
+      </div>
+      <div class="features m-4 p-0">
+        <img class="bennie" src="./Assets/bennie.svg" alt="bennie image">
+        <h3>Bennies</h3>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <section class="releases">
+    <div class="cards row justify-content-center">
+      <div class="top">
+        <h1>New Releases</h1>
+        <p>Get first and exclusive access to the newest styles & innovation,
+          free shipping, birthday rewards and more.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-12 card me-lg-5 mb-3" style="width: 19rem;">
+        <img src="./Assets/kyrie-pic.svg" class="card-img-top" alt="...">
+        <div class="card-info card-body">
+          <div class="other-info d-flex justify-content-lg-between">
+            <p>⭐⭐⭐⭐</p>
+            <p>$120.00</p>
+          </div>
+          <h5 class="card-title">Kyrie 7</h5>
+          <p class="card-text">Quick, fast and light—the Kyrie 7 lets your little one dress up like one of the game’s
+            best
+            players. These hoops-inspired kicks are cushioned right for future ballers, plus with a secure strap,
+            they'll
+            be ready to play all day.</p>
+          <a href="#" class="btn btn-success">Go Shop</a>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 me-lg-5 mb-3" style="width: 19rem;">
+        <img src="./Assets/air-max-97-pic.svg" class="card-img-top" alt="...">
+        <div class="card-info card-body">
+          <div class="other-info d-flex justify-content-lg-between">
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>$80.00</p>
+          </div>
+          <h5 class="card-title">Nike Air Zoom Pegasus</h5>
+          <p class="card-text">The Nike Air Zoom Pegasus 38 has that extra bounce for long, short or everyday runs. It’s
+            cool and breathable with a wider fit at the toes and plenty of cushioned support to help you fly past your
+            personal goals.</p>
+          <a href="#" class="btn btn-success">Go Shop</a>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 me-lg-5 mb-3" style="width: 19rem;">
+        <img src="./Assets/air-max-2021-pic.svg" class="card-img-top" alt="...">
+        <div class="card-info card-body">
+          <div class="other-info d-flex justify-content-lg-between">
+            <p>⭐⭐⭐</p>
+            <p>$120.00</p>
+          </div>
+          <h5 class="card-title">Nike Air Max 90</h5>
+          <p class="card-text">Check out the outsole—the specks are there because it's made with about 15% Nike Grind.
+            Then look closer at the mudguard and check out the multi-colored yarn that highlights multicolored Swoosh
+            designs.</p>
+          <a href="#" class="btn btn-success">Go Shop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="info-navigation row justify-content-between">
+      <section class="left-section navs col-lg-3 col-md-4 col-sm-8 ms-5">
+        <h1>sNikers Store</h1>
+        <hr>
+        <ul>
+          <li>
+            <i class="fas fas-bottom fa-map-marker-alt"></i>123 Fake street, Some City || 21544-61
+          </li>
+          <li>
+            <i class="fas fas-bottom fa-phone"></i>010-020-0340
+          </li>
+          <li>
+            <i class="fas fas-bottom fa-envelope"></i>snikers@company.com
+          </li>
+        </ul>
+      </section>
+
+      <section class="middle-section navs col-lg-3 col-md-4 col-sm-8  ms-5">
+        <h2>Categories</h2>
+        <hr>
+        <ul>
+          <li><a href="#">Lifestyle</a></li>
+          <li><a href="#">Running</a></li>
+          <li><a href="#">Basketball</a></li>
+          <li><a href="#">Training & Gym</a></li>
+          <li><a href="#">Soccer</a></li>
+          <li><a href="#">Tennis</a></li>
+          <li><a href="#">Baseball</a></li>
+        </ul>
+      </section>
+
+      <section class="right-section navs col-lg-3 col-md-8 col-sm-8 ms-5 me-5">
+        <h2>Menu</h2>
+        <hr>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </section>
+
+      <section class="social-subscribe row justify-content-between">
+        <hr>
+        <div class="social col-lg-4 col-md-12 col-sm-12 ms-5 ps-5 mb-5">
+          <i class="fab socials-fa fa-facebook-f"></i>
+          <i class="fab socials-fa fa-instagram"></i>
+          <i class="fab socials-fa fa-twitter"></i>
+          <i class="fab socials-fa fa-linkedin"></i>
+        </div>
+
+        <div class="subscribe col-lg-4 col-md-12 col-sm-12">
+          <form class="d-flex">
+            <input class="form-control me-1" type="search" placeholder="Email address" aria-label="Search">
+            <button class="btn btn-success" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </footer>
+
+    <section class="copyrights d-flex justify-content-center">
+      <p>Copyright © 2021 || Designed by Eduarda Almeida</p>
+    </section>
+
+  <script src="https://kit.fontawesome.com/9d6274d44d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
